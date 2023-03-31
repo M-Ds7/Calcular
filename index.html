@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Calculadora</title>
   </head>
-  <body>
+  <body class="bg-black text-white">
     <div class="container">
 
         <div class="main">
             <div class="contenedor_info">
+              
                 <h1 class="titulo">App para evidencia del segundo corte de Daniel<b> Calcular</b></h1>
-                <p>Resultado: <span class="resultado">?</span></p>
               </div>
-        
               <div class="contenedor_input">
-                <input type="number" class="input" />
-                <button type="submit" class="boton">Calcular</button>
+                <input type="number" class="input" placeholder="Digite el valor" required/>
+                <button type="botton" class="boton btn btn-primary">Calcular</button>
+              <div>
+                <p>Resultado: <span class="resultado">?</span></p>
               </div>
         </div>
 
